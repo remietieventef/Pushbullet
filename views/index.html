@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Send SMS via Pushbullet</title>
+</head>
+<body>
+  <h1>Send SMS</h1>
+  <form action="/sms/send" method="post">
+    <input type="text" name="phoneNumber" placeholder="Phone Number" required>
+    <textarea name="message" placeholder="Message" required></textarea>
+    <button type="submit">Send SMS</button>
+  </form>
+</body>
+</html>
